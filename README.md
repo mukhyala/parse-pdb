@@ -72,5 +72,8 @@ The output json is an object containing arrays of each structure keyed on record
       residues: array of residues
 ```
 
+## Example
+node example.js binding_pocket -p myfile.pdb -l LIG -d 5.0
+
 ## License
 MIT.  See LICENSE file.
