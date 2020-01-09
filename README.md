@@ -22,9 +22,9 @@ console.log(parsed.atoms);
     chainID: 'A',
     resSeq: 1,
     iCode: '',
-    x: -2.555,
-    y: 9.253,
-    z: 34.411,
+    xloc: -2.555,
+    yloc: 9.253,
+    zloc: 34.411,
     occupancy: 1,
     tempFactor: 30.6,
     element: 'N',
@@ -46,9 +46,9 @@ The output json is an object containing arrays of each structure keyed on record
     chainID: string
     resSeq: integer
     iCode: string
-    x: float
-    y: float
-    z: float
+    xloc: float
+    yloc: float
+    zloc: float
     occupancy: float
     tempFactor: float
     element: string
