@@ -1,6 +1,6 @@
 {
   "name": "parse-pdb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A parser for the Protein Data Bank (PDB) molecule format",
   "main": "index.js",
   "scripts": {

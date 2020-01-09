@@ -36,14 +36,14 @@ const pdbString = readFileSync(pdbFile, 'utf8');
 const parsed = parsePdb(pdbString);
 
 function byDistance(a) {
-    ligAtoms=this.atoms
-    for(index=0; index < ligAtoms.length; index++) {
+    ligAtoms=this.atoms;
+    for (index=0; index < ligAtoms.length; index++) {
 	lig = ligAtoms[index];
 	dx = a.xloc - lig.xloc;
 	dy = a.yloc - lig.yloc;
 	dz = a.zloc - lig.zloc;
 	dist = Math.sqrt( dx * dx + dy * dy + dz * dz );
-	return dist < this.distance;
+	if(dist < this.distance) return true;
     }
 }
 
